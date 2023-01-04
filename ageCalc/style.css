@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;    
+}
+
+#main-form{
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(147, 185, 211);
+    align-items: center;
+}
+
+.main-container{
+    width: 60vw; 
+    margin: auto;
+}
+
+input{
+    width: 30vw; 
+}
