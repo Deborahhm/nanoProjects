@@ -1,5 +1,5 @@
 # nanoProjects
-nanoProjects to fix programing concepts. 
+nanoProjects to training programing concepts. 
 
 # Projects : 
 - [Function that shows fibonnaci nth therms](https://deborahhm.github.io/nanoProjects/fibonacci/)
