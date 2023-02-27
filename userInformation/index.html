@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>User information</title>
 </head>
 <body>
-    
+    <section id="info-section">
+        <label for="name" >Nome: </label>
+        <input type="text" name="name" id="name" placeholder="Deborah Nascimento">
+        <label for="prof">Profissão: </label>
+        <input type="text" name="prof" id="prof" placeholder="desenvolvedora">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="deborahn@gmail.com">
+        <label for="github">Github: </label>
+        <input type="text" name="github" id="github" placeholder="deborahhm">
+        <label for="phone">Phone: </label>
+        <input type="text" name="phone" id="phone" placeholder="85 99999 9999">
+        <input id="botao" type="button" value="Gerar cartão">
+    </section>
+    <section id="card-section">
+        <div id="card-name"></div>
+        <div id="card-prof"></div>
+        <div id="container-contact">
+            <div id="card-email"></div>
+            <div id="card-github"></div>
+            <div id="card-phone"></div>
+        </div>
+    </section>
 </body>
 </html>

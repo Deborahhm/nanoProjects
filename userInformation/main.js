@@ -1,6 +1,17 @@
-import user, {printName, printAge} from './user.js'; 
+import User, {printCard} from './modules/user.js'
 
-let usr = new user('Bob', 24);
-console.log(usr);
-printName(usr);
-printAge(usr);
+
+const element = document.getElementById("botao");
+element.addEventListener("click", getValues, false);
+
+
+
+function getValues(){
+    const nome = document.querySelector("#name").value;
+    const email = document.querySelector("#email").value;
+    const prof = document.querySelector("#prof").value;
+    const github = document.querySelector("#github").value;
+    const phone = document.querySelector("#phone").value;
+
+    printCard(nome, email, prof, github, phone); 
+}
